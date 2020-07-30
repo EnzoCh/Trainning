@@ -1,0 +1,275 @@
+*{
+	margin: 0px;
+	padding: 0px ;
+}
+.rs1{
+	width: 100%;
+    height: 4000px;
+}
+.rs2{
+	width: 90%;
+	height: 500px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+.rs3{
+	width: 80%;
+	height: 400px;
+	margin: 5% 0 10% 10%;
+	position: relative;
+	left: 5%;
+}
+.tx1{
+	font-size: 50px;
+	text-align: center;
+}
+.d1{
+	width: 100%;
+	height: 450px;
+}
+.d11{
+	width: 45%;
+	height: 450px;
+
+	float: left;
+}
+.d111{
+	width: 45%;
+	height: 450px;
+
+	float: left;
+}
+.d2{
+	width: 100%;
+	height: 450px;
+}
+.d22{
+	width: 45%;
+	height: 450px;
+	float: left;
+}
+.d222{
+	width: 48%;
+	height: 450px;
+	float: left;
+}
+.d3{
+	width: 100%;
+	height: 450px;
+}
+.d33{
+	width: 45%;
+	height: 450px;
+	float: left;
+}
+.d333{
+	width: 45%;
+	height: 450px;
+	float: left;
+}
+.tx2{
+	font-size: 50px;
+	padding-left: 75px;
+	padding-top: 25px;
+}
+.tx3{
+	font-size: 25px;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+.mg1{
+	width: 300px;
+	height: 300px;
+	padding-top: 40px;
+	padding-left: 90px;
+}
+.mg2{
+	width: 300px;
+	height: 300px;
+	padding-top: 40px;
+	padding-left: 80px;
+}
+.tx4{
+	font-size: 120px;
+	padding-top: 30px;
+	padding-left: 90px;
+}
+.tx5{
+	font-size: 25px;
+	padding-left: 30px;
+}
+.tx6{
+	font-size: 120px;
+	padding-left: 75px;
+	padding-top: 20px;
+}
+.tx7{
+	font-size: 25px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.mg3{
+	width: 300px;
+	height: 300px;
+    padding-top: 30px;
+    padding-left:120px;
+}
+/*品牌历史*/
+#rs3_1{
+	width: 100%;
+	height: 20%;
+	font-size: 5em;
+	text-align: center;
+	font-style: italic;
+	position: relative;
+	top: 0%;
+}
+#rs3_2 p:nth-child(1){
+	color: deeppink;
+	font-size: 1.5em;
+}
+#rs3_2 p:nth-child(2){
+	font-size: 4em;
+	font-weight:100;
+}
+#rs3_2 p:nth-child(3){
+	font-size: 4em;
+}
+#rs3_3{
+	width: 80%;
+	height: 20%;
+	font-size: 5em;
+	text-align: left;
+	font-style: italic;
+	margin-left: 20%;
+}
+.rs4{
+	position: relative;
+	width: 100%;
+	height: 15%;
+	margin: 5% 0;
+}
+.rs5{
+	position: relative;
+	width: 100%;
+	height: 15%;
+	margin: 5% 0;
+}
+.rs6{
+	position: relative;
+	width: 100%;
+	height: 15%;
+	margin: 5% 0;
+}
+.rs7{
+	position: relative;
+	width: 100%;
+	height: 15%;
+	margin: 5% 0;
+}
+.rs4_1{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 5%;
+}
+.rs4_2{
+
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	right: 5%;
+}
+/*第二个图文板块*/
+.rs5_1{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 5%;
+}
+.rs5_2{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	right: 5%;
+}
+/*第三个图文板块*/
+.rs6_1{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 5%;
+}
+.rs6_2{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	right: 5%;
+}
+/*第四个图文板块*/
+.rs7_1{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 5%;
+}
+.rs7_2{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	right: 5%;
+}
+
+
+
+
+.rs4_2 div:nth-child(1) div:nth-child(1),.rs5_1 div:nth-child(1) div:nth-child(1){
+	position: absolute;
+	left:7%;
+	top: 5%;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: 100;
+}
+.rs4_2 div:nth-child(1) div:nth-child(2),.rs5_1 div:nth-child(1) div:nth-child(2){
+	position: absolute;
+	left: 12%;
+	top: 8%;
+	font-size: 3em;
+	font-weight:bolder;
+}
+.rs4_2 div:nth-child(1) div:nth-child(3),.rs5_1 div:nth-child(1) div:nth-child(3){
+	position: absolute;
+	left: 23%;
+	top: 10%;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: 600;
+}
+.rs4_2 hr,.rs5_1 hr{
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	top: 25%;
+	background: gray;
+}
+.rs4_3,.rs5_3{
+	position: absolute;
+	top: 25%;
+}
+.rs4_3 p:nth-child(1),.rs5_3 p:nth-child(1){
+	font-size: 3em;
+}
+.rs4_3 p:nth-child(2),.rs5_3 p:nth-child(2){
+	font-size: 1.1em;
+	color: gray;
+	margin-top: 7%;
+	margin: 2% 0;
+}
+.rs4_3 p:nth-child(3),.rs5_3 p:nth-child(3){
+	font-size: 1.1em;
+	color: gray;
+	line-height: 200%;
+}
+
+

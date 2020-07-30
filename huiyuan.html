@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员中心</title>
+    <link rel="stylesheet" type="text/css" href="css/huiyuan.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/btn.css">
+    <link rel="stylesheet" type="text/css" href="css/cover.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/change.js"></script>
+    <style type="text/css">
+        .show{
+            display: block;            
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>    
+    <div class="container">
+        <header>
+            <script src="js/nav.js"></script>
+            <div class="nav">
+                <!--导航-->
+                <ul class="flex-container">
+                    <li><a href="index.html" target="_self" class="click">首页</a></li>
+                    <li><a href="index2.html"  class="click">臻白焕采</a>
+                    <li><a href="cosmetics.html" class="click">纯净清颜</a>
+                    <li><a href="aerin.html" class="click">AERIN</a>
+                    <li><a href="suggest.html" class="click">修护系列</a>
+                    <li>
+                        <a href="register.html" target="_self"  class="user"><i class="fa fa-2x fa-user-circle" style="color:white"></i></a>
+                    </li>
+                    <li>
+                        <a href="shop_car.html" target="_self" class="user"><i class="fa fa-2x fa-shopping-cart" style="color:white"></i></a>
+                    </li>   
+                    <li>
+                        <a href="download.html" target="_self" class="user"><i class="fa fa-2x fa-mobile-phone" style="color:white"></i></a>
+                    </li>                                         
+                </ul>    
+            </div>    
+        </header>
+        <div id="boxdiv">
+            <div id="jianbian">
+                <img src="img/hybg (2).jpg">
+            </div>
+            <div id="one">
+                <ul>
+                    <li style="font-family: 'on';font-size: 128px;">XIYUNMED</li>
+                    <li style="font-family: 'on';font-size: 24px;">官网会员臻宠计划</li>
+                    <li style="font-family: 'on';font-size: 24px;">购物前绑卡入会，即享积分礼遇</li>
+                    <li><input type="button" value="即可入会" id="one1" onclick="open_new()" style="border: 0;background-color:black;color:white;font-family: 'boox';font-size: 32px;cursor: pointer;"></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+            function open_new(){
+                window.open("register.html","注册会员","width=750,height=550");
+            }
+            </script>
+            <div id="two">
+                <div class="title_box">
+                    <ul>
+                        <li style="font-family: 'tc';"><p class="p1">加入希芸 悦享惊喜</p></li>
+                        <li><p class="p2">官网任意购买正装，即可成为希芸会员</p></li>
+                    </ul> 
+                </div>
+                <div class="two_two">
+                    <ul>
+                        <li>
+                            <img src="img/hy1.jpg">
+                            <div class="two_info">
+                                任购正装获得积分银卡
+                                以上会员享多倍积分
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/hy2.jpg">
+                            <div class="two_info">
+                                800积分起超享低门槛兑星品
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/hy3.jpg">
+                            <div class="two_info">
+                                升级会员等级享惊喜入会礼
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="three">
+                    <div id="three_title">
+                        <p class="three_p">—— 四大会员 等级权益 ——</p>
+                    </div>
+                    <div id="three_one">
+                        <script src="js/huiyuan.js"></script>
+                        <script type="text/javascript">
+                            $(function(){
+
+                            })
+                        </script>
+                        <ul class="btn_huiyuan">
+                            <li><a href="#huiyuan" id="hy1" class="huiyuan_tab">普卡</a></li> 
+                            <li><a href="#huiyuan" id="hy2" class="huiyuan_tab">银卡</a></li>
+                            <li><a href="#huiyuan" id="hy3"class="huiyuan_tab">金卡</a></li>
+                            <li><a href="#huiyuan" id="hy4"class="huiyuan_tab">黑卡</a></li> 
+                        </ul>  
+                        <div id="huiyuan">
+                            <ul  name="huiyuan">
+                                <li>
+                                    <div id="huiyuan_one" class="huiyuan_box" name="huiyuan">
+                                        <ul>
+                                        <li>
+                                            <img src="img/pk.jpg" />
+                                        </li>
+                                        <li>                                        
+                                            任意购买正装可成为普卡会员
+                                            消费即得1倍积分，多重好礼等你来兑
+                                            生日当月首单消费享2倍积分，单笔实付满800元/1500元享生日加赠礼（超过20000元的部分不享多倍积分）                                            
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="huiyuan_two" class="huiyuan_box"  name="huiyuan">
+                                        <ul>
+                                        <li>
+                                            <img src="img/yk.jpg" />
+                                        </li>
+                                        <li>
+                                            单笔消费满3000元或年消费两次可成为银卡会员
+                                            消费即得1.2倍积分，多重好礼等你来兑
+                                            生日当月首单消费享2.4倍积分，单笔实付满800元/1500元享生日加赠礼（超过20000元的部分不享多倍积分）
+                                        </li>
+                                        </ul>                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="huiyuan_three" class="huiyuan_box"  name="huiyuan">
+                                        <ul>
+                                        <li>
+                                            <img src="img/jk.jpg" />
+                                        </li>
+                                        <li>
+                                            单笔消费满7000元或年消费1万元可成为金卡会员
+                                            消费即得1.5倍积分，多重好礼等你来兑
+                                            生日当月首单消费享3倍积分，单笔实付满800元/1500元享生日加赠礼；金卡会员免费寄送箐纯体验装福袋（超过20000元的部分不享多倍积分）
+                                        </li>                                        
+                                        </ul>                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="huiyuan_four" class="huiyuan_box"  name="huiyuan">
+                                        <ul>
+                                        <li>
+                                            <img src="img/hk.jpg" />
+                                        </li>
+                                        <li>
+                                            年消费满25000元即可成为黑卡会员
+                                            消费即得1.5倍积分，多重好礼等你来兑
+                                            生日当月首单消费享3倍积分，单笔实付满800元/1500元享生日加赠礼；黑卡会员免费寄送黑金装生日
+                                            福袋（超过20000元的部分不享多倍积分）                                            
+                                        </li>                                        
+                                        </ul>                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部信息-->
+        <footer class="flex-container-foot">
+            <div style="color:white;text-align:center;font-family: 'lt';font-size: 62px;">
+                官方网站
+            </div>
+            <div class="services">
+                <div class="services_up">
+                    <ul class="services_img">
+                        <li><img src="img/footer-1.png" alt="">
+                        </li>
+                        <li><img src="img/footer-2.png" alt="">
+                        </li>
+                        <li><img src="img/footer-3.png" alt="">
+                        </li>
+                        <li><img src="img/footer-4.png" alt="">
+                        </li>
+                    </ul>
+                <div style="text-align: center; margin: 0%">
+                    <ul style="width: 100%;justify-content: space-around;margin: 0;">
+                        <li>
+                            <h4>正品保证</h4>
+                            <p>
+                                官方直供原装
+                            </p>
+                        </li>
+                        <li>
+                            <h4>顺丰包邮</h4>
+                            <p>
+                                港澳台偏远地区除外均可提供普通快递服务
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>精美礼盒</h4>
+                            <p>
+                                甄选精美礼盒包装尊享官网购物体验
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>绑定公众号</h4>
+                            <p>
+                                首次绑定会员&nbsp;即赠100积分
+                            </p>                            
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="services_down">
+                    <ul class="services_info">
+                        <li>
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">加入兰蔻</a></li>
+                                <li><a href="huiyuan.html" target="_self">会员中心</a></li>
+                                <li><a href="know.html" target="_self">品牌历史</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">线上美容顾问</a></li>
+                                <li><a href="">订购热线：xxx-xxxx-xxxx</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">配送及退货</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">专柜查询</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">关注我们</a></li>
+                                <li><a href=""><i class="fa fa-weixin"></i>官方微信</a></li>
+                                <li><a href=""><i class="fa fa-weibo"></i>官方微博</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>  
+         
+    </div>      
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#b{
+	width: 100%;
+	margin-top: -10%;
+}
+#c_box{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 2% auto;
+}
+#c{
+	width: 20%;
+	margin: 7% 2% 2% 10%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5vw;
+}
+#c #c1,#c #c2,#c #c3,#c #c4{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+#c #c1 details,#c #c2 details,#c #c3 details,#c #c4 details{
+}
+#c1,#c2,#c3,#c4{
+	position: relative;
+}
+#c1 p,#c2 p,#c3 p,#c4 p{
+	position:absolute;
+	top: 2%;
+	left: 15%;
+}
+#d{
+	width: 75%;
+	margin: 4% 8% 4% 4%;
+	height: 15%;
+}
+#d ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+	height: 100%;
+}
+#d ul li{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+	padding: 2%;
+	width: 25%;
+	height: 100%;
+}
+.buy_box{
+	width: 100%;
+	height: 100%;
+	margin: 2%;
+	padding: 2%;
+	position: relative;
+}
+.buy_btn_group{
+	width: 65%;
+	position: relative;
+	margin: 2% auto;
+	display: flex;
+	flex-direction: column;
+}
+@media only screen and (min-width: ) {
+	
+}
+details summary::-webkit-details-marker { 
+	display:none;
+}
+summary{
+		outline:none;
+}
+#c1 ul,#c2 ul,#c3 ul,#c4 ul{
+	margin-top: 5%;
+}
+#c1 li,#c2 li,#c3 li,#c4 li{
+	margin-top: 10%;
+	font-size: 1vw;
+	color: gray;
+}
+#c1,#c2,#c3,#c4{
+	margin-top: 10%;
+}
+.renqi{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	background-color: black;
+	color: white;
+	font-size: 1vw;
+	padding: 2%;
+}
+.quehuo{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	padding: 2%;
+	font-size: 1vw;
+	color: gray;
+}
+.jiage{
+	width: 100%;
+	position: absolute;
+	bottom: -10%;
+	left: 0%;
+}
+.jiage p{
+	margin-top: -10%;
+}

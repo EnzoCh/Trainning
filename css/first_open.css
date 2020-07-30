@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.divbox{
+	width: 100%;
+	height: 646px;
+	background:url(../img/132.png) no-repeat;
+	background-size: cover;
+}
+#first{
+		width: 24%;
+		height: 430px;
+		padding: 3%;
+		position: absolute;
+		left: 35%;
+		top: 10%;
+		background-color: white;
+		box-shadow:5px 5px 10px 4px #808080;
+	}
+	nav{
+		word-spacing:50px;
+	}
+	nav a{
+		font-size: 22px;
+		color: #5e2d00;
+		text-decoration: none;
+		margin-left: 30px;
+	}
+	nav a:hover{
+		color: red;
+		cursor: pointer;
+	}
+	dl{
+		margin: 0 auto;
+		display: none;
+	}
+	dt{
+		margin: 10% 0 10% 0;
+	}
+	:target{
+		display: block;
+	}
+	input{
+		width: 250px;
+		height: 25px;
+		color: #c0c0c0;
+	}
+	.button{
+		width: 150px;
+		height: 30px;
+		position: absolute;
+		left: 20%;
+		font-size: 20px;
+		color: white;
+		background-color: #ff1493;
+		border:none;
+	}
+	#password{
+		width: 50px;
+		height: 15px;
+	}
+	.forget{
+		position: absolute;
+		left: 50%;
+		font-size: 14px;
+		color: #a9a9a9;
+	}
+	#two a{
+		text-decoration: none;
+	}
+	#two img{
+		width:100px;
+		height:35px;
+		position:absolute;
+		left:50%;
+		top:38%;
+		z-index: 3;
+	}
+	#three{
+		width: 65%;
+		height: 20%;
+		font-size: 16px;
+		color: #5e2d00;
+		position: absolute;
+		top: 75%;
+	}

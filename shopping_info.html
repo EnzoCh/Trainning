@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品信息</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/shopping_info.css">
+    <link rel="stylesheet" type="text/css" href="css/btn.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jsinput.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <style type="text/css">
+        #open{
+            background-color: white;
+            border-radius: 4px;
+            width: 180px;
+            height: 140px;
+            position: absolute;
+            top: 35.5%;
+            left: 45.5%;
+        }
+        #grey_cover{
+            background-color:gray;
+            width: 190px;
+            height: 150px;
+            position: absolute;
+            top: 34.5%;
+            left: 45.15%;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function(){
+            $('#open').hide();
+            $('.grey_cover').hide();
+            $('.out').click(function(){
+                $('#open').fadeIn();
+                $('.grey_cover').fadeIn();
+            });
+            $('.quit').click(function(){
+                $('#open').fadeOut();
+                $('.grey_cover').fadeOut();
+            })
+        });
+    </script>
+</head>
+<body>
+	<div class="container">
+        <header>
+            <div class="nav">
+                <script src="js/nav.js"></script>>
+                <!--导航-->
+                <ul class="flex-container">
+                    <li><a href="index.html" target="_self" class="click">首页</a></li>
+                    <li><a href="index2.html"  class="click">臻白焕采</a>
+                    <li><a href="cosmetics.html" class="click">纯净清颜</a>
+                    <li><a href="aerin.html" class="click">AERIN</a>
+                    <li><a href="suggest.html" class="click">修护系列</a>
+                    <li>
+                        <a href="register.html" target="_self"  class="user"><i class="fa fa-2x fa-user-circle" style="color:white"></i></a>
+                    </li>
+                    <li>
+                        <a href="shop_car.html" target="_self" class="user"><i class="fa fa-2x fa-shopping-cart" style="color:white"></i></a>
+                    </li>   
+                    <li>
+                        <a href="download.html" target="_self" class="user"><i class="fa fa-2x fa-mobile" style="color:white"></i></a>
+                    </li>                                        
+                </ul>    
+            </div>    
+        </header>
+		<div class="sale_bar">
+			<div class="one">
+                <div class="sale_menu">
+                        <script src="js/jquery-1.9.1.min.js"></script>
+                        <script src='js/okzoom.js'></script>
+                        <script>
+                            $(function(){
+                             $('#rty').okzoom({
+                              width: 250,
+                              height: 250,
+                              round: true,
+                              background: "#fff",
+                              backgroundRepeat: "repeat",
+                              shadow: "0 0 5px #000",
+                              border: "1px solid black"
+                          });
+                        });
+                        </script>
+            
+                    <ul>
+                        <li>
+                            <div>
+                                <img id="rty" src="img/c10.jpg" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="prod_info">
+                                <ul>
+                                    <li class="txt7">希芸幻时凝润</li>
+                                    <li class="txt7">泡沫洁面膏100ml</li>
+                                </ul>                            
+                            </div>
+                        </li>
+                    </ul>				
+                    <ul>
+                        <li class="txt1">Rare Earth Deep Pore Cleansing Masque</li>
+                        <li class="txt2">希芸幻时凝润泡沫洁面膏100ml</li>
+                        <li>
+                        	<i class="fa fa-star fa-lg" ></i>
+                        	<i class="fa fa-star fa-lg" ></i>
+                        	<i class="fa fa-star fa-lg" ></i>
+                        	<i class="fa fa-star fa-lg" ></i>
+                        	<i class="fa fa-star fa-lg" ></i>
+                        	&nbsp;&nbsp;
+                        	<span>请填写您的评论</span>
+                        </li>
+                        <li>
+                        	<details>
+                        		<summary>产品简介</summary>
+                        		<ul>
+                        			<li>调理肌肤</li>
+                        			<li>净化毛孔</li>
+                        			<li>控油祛痘</li>
+                        			<li>正品保障</li>
+                        			<li>正品保障</li>
+                        			<li>内含亚马逊芦荟</li>
+                        			<li>七天无理由退货</li>
+                        		</ul>
+                        	</details>
+                        </li>
+                        <li>
+                            规格：<input type="checkbox" name="bb" style="width:20px;" />常规版125ml
+                            <input type="checkbox" name="bb" style="width:20px;"/>暖阳版125ml
+                            <input type="checkbox" name="bb" style="width:20px;"/>少女版 
+                        </li>          
+                        <li>
+                        	<span>* 因数量有限，同一个收货地址或者同一手机号码限购5件，敬请谅解。</span>
+                        </li>
+                        <li>
+                            数量：                                    
+                        </li>
+                        <li>
+                                收货地址：<input type="text" size="18px" />
+                        </li>
+                        <li>
+                                支付方式：	<input type="radio" name="fanshi" size="width=20px" />微信
+                                <input type="radio" name="fanshi" size="width=20px" />支付宝
+                                <input type="radio" name="fanshi" size="width=20px" />银行卡
+                        </li>
+                        <li>
+                           	<a href="shop_car.html" class="btn_sale_info">加入购物车</a>
+                            <a href="buy.html" class="btn_sale_info">立即下单</a>
+                        </li>
+                        <li>
+                        	<a href="#" class="out" style="color: black;"><i class="fa fa-heart fa-lg" ></i></a>添加到我的收藏夹
+                        </li>
+                    </ul>
+                </div>
+                <div class="grey_cover">
+                    <div id="grey_cover"></div>
+                    <div id="open">
+                        您未注册本会员，没有点击权限
+                        请<a href="register.html">登录</a>
+                        <p style="text-align: center;position: relative; top: 15%;">
+                            <a href="#" class="quit" style=" color:black;"><i class="fa fa-2x fa-remove"></i></a>
+                        </p>
+                    </div>                
+                </div>
+			   <div class="sale_menu_info">
+                   <ul>
+                       <li>
+                            <img class="img5" src="img/c11.jpg">
+                       </li>
+                       <li>
+                            ——使用建议——
+                       </li>
+                       <li>
+                            PROP0SAL
+                       </li>
+                       <li>
+                            <img class="img6" src="img/c12.jpg">
+                       </li>
+                       <li>
+                            洗净双手后，用清水打湿面部。取1厘米左右的洁面于手心，少量多次沾水在掌心打圈起泡，然后将泡沫涂在脸部，由内向外、由下到上打圈按摩10~20秒左右。注意避开眼部，着重清洁T区部位，脸颊只需顺带过，再用温水洗净即可。
+                       </li>
+                       <li>
+                            注意事项：如有不适，请暂停使用！并咨询我们热线或关注我们微信公众号。    
+                       </li>
+                   </ul>
+		        </div>	  
+            </div>
+        </div>
+        <div class="btn_up" style="width: 3.5%;margin-left: 95%;">
+            <a id="btn_up" href="#top" style="color: black"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+        </div>        
+        <!--底部信息-->
+        <!--底部信息-->
+        <footer class="flex-container-foot">
+            <div style="color:white;text-align:center;font-family: 'lt';font-size: 62px;">
+                官方网站
+            </div>
+            <div class="services">
+                <div class="services_up">
+                    <ul class="services_img">
+                        <li><img src="img/footer-1.png" alt="">
+                        </li>
+                        <li><img src="img/footer-2.png" alt="">
+                        </li>
+                        <li><img src="img/footer-3.png" alt="">
+                        </li>
+                        <li><img src="img/footer-4.png" alt="">
+                        </li>
+                    </ul>
+                <div style="text-align: center; margin: 0%">
+                    <ul style="width: 100%;justify-content: space-around;margin: 0;">
+                        <li>
+                            <h4>正品保证</h4>
+                            <p>
+                                官方直供原装
+                            </p>
+                        </li>
+                        <li>
+                            <h4>顺丰包邮</h4>
+                            <p>
+                                港澳台偏远地区除外均可提供普通快递服务
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>精美礼盒</h4>
+                            <p>
+                                甄选精美礼盒包装尊享官网购物体验
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>绑定公众号</h4>
+                            <p>
+                                首次绑定会员&nbsp;即赠100积分
+                            </p>                            
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="services_down">
+                    <ul class="services_info">
+                        <li>
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">加入兰蔻</a></li>
+                                <li><a href="huiyuan.html" target="_self">会员中心</a></li>
+                                <li><a href="know.html" target="_self">品牌历史</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">线上美容顾问</a></li>
+                                <li><a href="">订购热线：xxx-xxxx-xxxx</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">配送及退货</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">专柜查询</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">关注我们</a></li>
+                                <li><a href=""><i class="fa fa-weixin"></i>官方微信</a></li>
+                                <li><a href=""><i class="fa fa-weibo"></i>官方微博</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>  
+	</div>
+</body>
+</html>

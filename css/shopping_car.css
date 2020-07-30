@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.shopping_car{
+    width: 90%;
+    margin: 2% auto;
+}
+.shop_car_title{
+    margin: 2%;
+    text-align: center;
+    font-size: 1.25em;
+}
+.shop_count{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 2% auto;
+}
+.shop_count li{
+    width: 25%;
+    text-align: center;
+    margin: 2%;
+}
+.shop_count_money{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.shop_count_money li{
+    width: 25%;
+    text-align: center;
+}
+.shop_count_money #ag{
+	width: 50%;
+	margin-top:5% ;
+}
+.shop_count_money .aj{
+	width: 25%;
+}
+.shop_count_money li img{
+    width: 45%;
+}
+.shop_count{
+	background-color: black;
+	color: white;
+}
+.jixugouwu{
+	margin: 2% 2% -4.5% 7%;
+    text-align: left;
+}
+.shop_count_money li:nth-child(2),.shop_count_money li:nth-child(3),.shop_count_money li:nth-child(4){
+	margin-top:5%;
+}
+.shop_count_money ul:nth-child(5) li:nth-child(1){
+	width: 50%;
+	text-align: center;
+	margin-top:0% ;
+}
+.fa_box{
+    display: flex;
+    justify-content: space-between;
+}
+.fa_box a{
+    color: grey;
+}

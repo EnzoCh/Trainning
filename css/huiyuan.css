@@ -1,0 +1,150 @@
+*{
+	padding: 0;	
+	margin: 0;
+}
+#boxdiv{
+	width: 90%;
+	margin: 2% auto;
+}
+#jianbian{
+	width: 50%;
+	margin: 2% auto;
+}
+#one{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 2% auto;
+	text-align: center;
+}
+#one ul{
+	width: 90%;
+	margin: 2% auto;
+}
+#one ul li{
+	margin: 2%;
+}
+
+.title_box ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 80%;
+}
+.title_box ul li{
+	width: 100%;
+}
+.title_box ul li p{
+	text-align: center;
+}
+
+
+.two_two ul{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 2% auto;
+}
+.two_two ul li{
+	width: 25%;
+	margin: 2% auto;
+}
+.two_info{
+	width: 60%;
+	margin: 2% auto;
+	text-align: center;
+}
+#three{
+	width: 80%;
+	margin: 5% auto;
+}
+#three_title{
+	width: 50%;
+	margin: 2% auto;
+	text-align: center;
+}
+.three_p{
+	font-size: 2em;
+}
+
+
+#three_one{
+	width: 90%;
+	margin:2% auto;
+}
+#three_one .btn_huiyuan{
+	font-size: 2em;
+	width: 60%;
+	margin: 2% auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+#three_one .btn_huiyuan li{
+	width: 35%;
+	margin: 2%;
+}
+
+
+
+
+
+#huiyuan{
+	width: 90%;
+	margin: 2% auto;
+	position: relative;
+}
+#huiyuan ul{
+	width: 90%;
+	margin: 2% auto;
+}
+#huiyuan ul li{
+	width: 90%;
+	position: relative;
+	margin: 2% auto;
+}
+
+#huiyuan ul li div{
+	width: 90%;
+	height: 100%;
+	margin: 2% auto;
+}
+.huiyuan_box{
+	display: none;
+}
+.huiyuan_box ul{
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 2% auto;
+}
+.huiyuan_box ul li{
+	width: 50%;
+	margin: 2%;
+}
+#huiyuan_one,#huiyuan_two,#huiyuan_three,#huiyuan_four{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+}
+.huiyuan_box div{
+	margin: 2%;
+	width: 100%;
+}
+
+
+
+.two_two img:hover{
+	transform: scale(1.2);
+}
+.two_two img{
+	transition: all 0.6s;
+}
+
+.fa_box{
+    display: flex;
+    justify-content: space-between;
+}
+.fa_box a{
+    color: grey;
+}

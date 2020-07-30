@@ -1,0 +1,54 @@
+.btn{
+    background-color:brown;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.3 ease-in;
+}
+.btn-buy{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    margin: 0 auto;
+}
+.btn-sale{
+    background-color: brown;
+    color: white;
+    width: 10%;
+    padding: 2%;
+    text-align: center;
+}
+.btn_sale{
+    background-color: brown;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+.btn_sale_info{
+    background-color: brown;
+    color: white;
+    padding: 2%;
+    margin: 4%;
+    text-align: center;
+}
+#second_btn_sale{
+    position: absolute;
+    left: 25%;
+}
+.btn_sale,.btn_sale_info {
+	box-shadow: 0 0 0 20px black inset;
+	transition: box-shadow 0.5s ease 0s;
+}
+.btn_sale_info:hover,
+.btn_sale:hover {
+	box-shadow: 0 0 0 0px black inset;
+}
+.fa_info:hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}

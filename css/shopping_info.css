@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sale_bar{
+    width: 90%;
+    margin: 2% auto;
+}
+.one{
+    margin: 2%;
+}
+.sale_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2% auto;
+}
+.sale_menu ul{
+    width: 50%;
+    margin: 2%;
+}
+.sale_menu ul li{
+    margin: 2%;
+}
+.prod_info{
+    margin: 2%;
+}
+.prod_info ul{
+    width: 50%;
+    margin: 2% auto;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.prod_info ul li{
+    text-align: center;
+}
+
+
+.sale_menu_info{
+    width: 90%;
+    margin: 2% auto;
+}
+.sale_menu_info ul{
+    width: 90%;
+    margin: 2% auto;
+}
+.sale_menu_info ul li{
+    text-align: center;
+}
+.txt1,.txt2{
+	font-size: 1.3sem;
+    font-weight: bolder;
+}
+.sale_menu ul:nth-child(2) li:nth-child(3) span,.sale_menu ul:nth-child(2) li:nth-child(3) i{
+	color: gray;
+}
+.sale_menu ul:nth-child(2) li:nth-child(3){
+	font-size: 1.2em;
+	white-space: nowrap;
+}
+.sale_menu_info ul li:nth-child(2){
+	font-size:3em ;
+}
+.sale_menu_info ul li:nth-child(3){
+	font-size:3em ;
+	color: burlywood;
+}
+.sale_menu ul:nth-child(2) li:nth-child(4) summary{
+	font-size: 1.2em;
+}
+.sale_menu ul:nth-child(2) li:nth-child(4) li{
+	font-size: 1em;
+}
+summary{
+		outline:none;
+}
+.sale_menu ul:nth-child(2) li:nth-child(5),.sale_menu ul:nth-child(2) li:nth-child(7),.sale_menu ul:nth-child(2) li:nth-child(8),.sale_menu ul:nth-child(2) li:nth-child(9){
+	font-size: 1.2em;
+}
+.sale_menu ul:nth-child(2) li:nth-child(6) span{
+	color: red;
+}
+.sale_menu ul:nth-child(2) li:nth-child(10) span{
+	padding: 2%;
+	background-color: black;
+	color: white;
+	font-size: 1em;
+}
+.sale_menu ul:nth-child(2) li:nth-child(10){
+	position: relative;
+	top: 1%;
+}
+.sale_menu ul:nth-child(2) li:nth-child(11)
+{
+	position: relative;
+	top: 2%;
+}
+.sale_menu_info ul li:nth-last-child(2){
+	font-size:1.3em ;
+}
+.sale_menu_info ul li:nth-last-child(1){
+	font-size:1.5em ;
+	color: burlywood;
+	margin-top: 3%;
+}
+.fa_box{
+    display: flex;
+    justify-content: space-between;
+}
+.fa_box a{
+    color: grey;
+}

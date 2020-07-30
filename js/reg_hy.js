@@ -1,0 +1,12 @@
+$(function(){
+    $('.reg_hy').eq(1).css({'color':'white'});
+    $('.reg_hy').hide();
+    $('.up_cover').hover(function(){
+        $(this).mouseover(function(){
+            $('.reg_hy',this).slideDown('slow');
+        })
+        $(this).mouseleave(function(){
+            $('.reg_hy',this).slideUp('slow');
+        })
+    }).addClass('cover');
+})

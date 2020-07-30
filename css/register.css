@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.container{
+	width: 100%;
+}
+.register_menu{
+	width: 20%;
+	margin: 2% auto;
+	display: flex;
+	justify-content: space-between;
+}
+.register_menu div{
+	width: 45%;
+	text-align: center;
+	margin: 2%;
+	padding: 2%;
+}
+#register_info_box{
+	width: 80%;
+	margin: 2% auto;
+}
+#register{
+	width: 80%;
+	margin: 2% auto;
+}
+#register ul{
+	margin: 2% auto;
+	width: 90%;
+}
+#register ul li{
+	width: 80%;
+	margin: 2% auto;
+	text-align: center;
+}
+
+#three{
+	width: 80%;
+	margin: 2% auto;
+}
+#three ul{
+	display: flex;
+	justify-content: space-between;
+}
+#three ul li{
+	width: 15%;
+}
+#three ul li img{
+	width: 100%;
+}
+
+#login{
+	width: 80%;
+	margin: 2% auto;
+}
+#login ul{
+	margin: 2% auto;
+	width: 90%;
+}
+#login ul li{
+	width: 80%;
+	margin: 2% auto;
+	text-align: center;
+}
+

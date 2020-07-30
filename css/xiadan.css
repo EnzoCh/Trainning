@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+  界面：下单界面
+  编辑：辜鑫
+  */
+body{
+	width: 100%;
+	height: 1200px;
+}
+.xd1{
+	width: 80%;
+	height: 1000px;
+    padding-left: 150px;
+    margin-left: 100px;
+}
+.xd2{
+	width: 80%;
+	height: 400px;
+}
+.xd3{
+	width:80%;
+	height: 300px;
+}
+.xd4{
+	width: 80%;
+	height: 300px;
+}
+.xdimg1{
+     width: 850px;
+     height: 100px;
+}
+.xdtxt1{
+	font-size: 20px;
+
+	padding-left: 25px;
+}
+.xdimg2{
+    width: 300px;
+    height: 200px;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.xdimg3{
+    width: 300px;
+    height: 200px;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+ul li{
+	list-style: none;
+}
+.qq{
+	width: 50%;
+	margin: 0 18%;
+}
+#qqa{
+	width: 40px;
+	margin: 0% 2%;
+}
+#qqb{
+	margin: 0% 2%;
+}
+.xdtxt2{
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 155px;
+}
+.xdtxt3{
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 150px;
+}
+.xdimg4{
+	padding-top: 40px;
+}
+.xd_count{
+    width: 18%;
+    margin: 2% 6%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.xdimg5{
+	width: 60px;
+	height: 60px;
+}
+.xda{
+	padding-left: 700px;
+}
+a{
+	text-decoration: none;
+	color: white;
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+ a:hover{
+    color: red;
+}

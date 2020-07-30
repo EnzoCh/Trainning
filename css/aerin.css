@@ -1,0 +1,123 @@
+*{
+}
+.aerin{
+    width: 90%;
+    margin: 2%  auto;
+}
+.aerin_box{
+    width: 90%;
+    margin: 2% auto;
+}
+.aerin_box ul li{
+    margin: 2%;
+}
+.aerin_box ul li ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0 4% 0;
+}
+.aerin_box ul li ul li{
+    width: 60%;
+}
+.aerin_box ul li ul li div{
+    width: 90%;
+    margin: 2% auto;
+}
+.aerin_box ul li ul li div ul{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% auto;
+}
+.aerin_box ul li ul li div ul li{
+    width: 90%;
+    margin: 2% auto;
+}
+.one{
+	text-align: center;
+}
+.four li:nth-child(1),.five li:nth-child(1){
+	text-align: center;
+	color: gray;
+	font-size: 2em;
+	position: relative;
+	left: -4%;
+}
+.two li:nth-child(1),.three li:nth-child(1){
+	text-align: center;
+	color: gray;
+	font-size: 2em;
+	position: relative;
+	left: -12%;
+}
+.one1{
+	color: gray;
+	font-size: 1.2em;
+}
+.one div,.two div,.three div,.four div,.five div{
+	padding: 2% 0% 2% 0%;
+	background-color: red;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-left: -2%;
+}
+.one div,.two div,.three div,.four div,.five div{
+	box-shadow: 0 0 0 50px black inset;
+	transition: box-shadow 0.7s ease 0s;
+}
+.one div:hover,.two div:hover,.three div:hover,.four div:hover,.five div:hover{
+	box-shadow: 0 0 0 0px black inset;
+	cursor:pointer;
+}
+.two div,.three div,.four div,.five div{
+	padding: 2% 0% 2% 0%;
+	background-color: red;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-left: -2%;
+	position: relative;
+	left: -5%;
+}
+
+
+/*鼠标悬浮图片变大*/
+.aerin_box img:hover{
+	transform: scale(1.2);
+}
+.aerin_box img{
+	transition: all 0.6s;
+}
+.six{
+	overflow: hidden;
+}
+
+/*class为one的第一个li字体*/
+.one li:nth-child(1){
+	font-size: 5em;
+}
+@font-face {
+	font-family:'boox';
+	src: url(../fonts/BOOMBOX.TTF);
+}
+@font-face {
+	font-family: 'fz';
+	src: url(../fonts/FZJZJW.TTF);
+}
+@font-face {
+	font-family:'lt';
+	src: url(../fonts/LTCH.TTF);
+}
+@font-face {
+	font-family:'on';
+	src: url(../fonts/ONYX.TTF);
+}
+@font-face {
+	font-family:'ro';
+	src: url(../fonts/ROCK.TTF);
+}
+@font-face {
+	font-family:'tc';
+	src: url(../fonts/TCCM____.TTF);
+}

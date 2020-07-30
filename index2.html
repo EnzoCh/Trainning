@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>产品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/one.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/btn.css">		
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<link href="css/lbo.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/c1.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="nav">
+					<script src="js/nav.js"></script>
+					<!--导航-->
+					<ul class="flex-container">
+						<li><a href="index.html" target="_self" class="click">首页</a></li>
+						<li><a href="index2.html"  class="click">臻白焕采</a>
+						<li><a href="cosmetics.html" class="click">纯净清颜</a>
+						<li><a href="aerin.html" class="click">AERIN</a>
+						<li><a href="jianyi.html" class="click">修护系列</a>
+						<li>
+							<a href="register.html" target="_self"  class="user"><i class="fa fa-2x fa-user-circle" style="color:white"></i></a>
+						</li>
+						<li>
+							<a href="shop_car.html" target="_self" class="user"><i class="fa fa-2x fa-shopping-cart" style="color:white"></i></a>
+						</li>   
+						<li>
+							<a href="download.html" target="_self" class="user"><i class="fa fa-2x fa-mobile" style="color:white"></i></a>
+						</li>                                                                                
+					</ul>    
+				</div>    
+			</header>
+			<!--
+            	轮播图
+            -->
+            <div class="banner-box">
+			    <div class="bd">
+			        <ul>
+			            <li>
+			                <div class="m-width"> <a href="javascript:void(0);"><img src="img/c1.jpg" /></a> </div>
+			            </li>
+			            <li>
+			                <div class="m-width"> <a href="javascript:void(0);"><img src="img/c2.jpg" /></a> </div>
+			            </li>
+			            <li>
+			                <div class="m-width"> <a href="javascript:void(0);"><img src="img/c3.jpg" /></a> </div>
+			            </li>
+			            <li>
+			                <div class="m-width"> <a href="javascript:void(0);"><img src="img/c1.jpg" /></a> </div>
+			            </li>
+			        </ul>
+			    </div>
+			    <div class="banner-btn"> <a class="prev" href="javascript:void(0);"></a> <a class="next" href="javascript:void(0);"></a>
+			    </div>
+			</div>
+			<script type="text/javascript">
+			$(document).ready(function(){
+
+			$(".prev,.next").hover(function(){
+				$(this).stop(true,false).fadeTo("show",0.9);
+			},function(){
+				$(this).stop(true,false).fadeTo("show",0.4);
+			});
+	
+			$(".banner-box").slide({
+				titCell:".hd ul",
+				mainCell:".bd ul",
+				effect:"fold",
+				interTime:1500,
+				delayTime:1500,
+				autoPlay:true,
+				autoPage:true, 
+				trigger:"click" 
+			});
+
+			});
+			</script>
+			
+			<!--
+            	页面
+            -->
+			<div id="b">
+				<div id="c_box">
+					<div id="c">
+								<div id="c1">
+									<p>产品类型</p>
+									<details>
+										<summary><i current="0" class="fa fa-caret-square-o-right fa-lg" ></i></summary>
+										<ul>
+											<li>卸妆&洁面</li>
+											<li>美容液&爽肤水</li>
+											<li>眼部护理</li>
+										</ul>
+									</details>
+								</div>
+								<div id="c2">
+									<p>产品筛选</p>
+									<details>
+										<summary><i current="0" class="fa fa-caret-square-o-right fa-lg" ></i></summary>
+										<ul>
+											<li>隔离防晒</li>
+											<li>面膜</li>
+											<li>粉底</li>
+										</ul>
+									</details>
+								</div>
+								<div id="c3">
+									<p>肌肤需求</p>
+									<details>
+										<summary><i current="0" class="fa fa-caret-square-o-right fa-lg" ></i></summary>
+										<ul>
+											<li>奢宠抗老</li>
+											<li>去黑眼圈</li>
+											<li>淡斑焕白</li>
+											<li>润泽保湿</li>
+											<li>深层洁净</li>
+											<li>修护肌底</li>
+											<li>淡斑焕白</li>
+											<li>男士护肤</li>
+											<li>紧致抚纹</li>
+										</ul>
+									</details>
+								</div>
+								<div id="c4">
+									<p>价格</p>
+									<details>
+										<summary><i current="0" class="fa fa-caret-square-o-right fa-lg" ></i></summary>
+										<ul>
+											<li>隔离防晒</li>
+											<li>面膜</li>
+											<li>粉底</li>
+										</ul>
+									</details>
+								</div>
+					</div>
+					<div id="d">
+						<ul>
+							<li>
+								<div class="buy_box">
+									<div class="renqi">人气</div>
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥599</p></div>
+									<img src="img/1.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="renqi">人气</div>
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥799</p></div>
+									<img src="img/2.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="renqi">新品</div>
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥999</p></div>
+									<img src="img/2.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥799</p></div>
+									<div class="quehuo"><i class="fa fa-meh-o fa-lg" ></i>暂时缺货</div>
+									<img src="img/4.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥399</p></div>
+									<img src="img/5.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥799</p></div>
+									<img src="img/6.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+									    <a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+							 </div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥799</p></div>
+								    <img src="img/7.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥599</p></div>
+									<div class="quehuo"><i class="fa fa-meh-o fa-lg" ></i>暂时缺货</div>
+									<img src="img/8.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥799</p></div>
+									<img src="img/9.jpg" alt="">
+										<div class="buy_btn_group">
+											<a class="btn_sale" onclick="">立即购买</a>
+											<a class="btn_sale_info" onclick="">了解详情</a>
+								        </div>
+								</div>
+							</li>
+						</ul>
+				        <ul>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥399</p></div>
+									<img src="img/10.jpg" alt="">
+									<div class="buy_btn_group">
+										<a class="btn_sale" onclick="">立即购买</a>
+										<a class="btn_sale_info" onclick="">了解详情</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥199</p></div>
+									<img src="img/11.jpg" alt="">
+										<div class="buy_btn_group">
+											<a class="btn_sale" onclick="">立即购买</a>
+											<a class="btn_sale_info" onclick="">了解详情</a>
+										</div>
+								</div>
+							</li>
+							<li>
+								<div class="buy_box">
+									<div class="jiage"><i class="fa fa-star-o fa-lg" ></i><p align="right" >|&nbsp;&nbsp;&nbsp;&nbsp;￥199</p></div>
+									<img src="img/12.jpg" alt="">
+										<div class="buy_btn_group">
+											<a class="btn_sale" onclick="">立即购买</a>
+											<a class="btn_sale_info" onclick="">了解详情</a>
+										</div>
+								</div>
+							</li>
+						</ul>
+																						
+				</div>
+			</div>
+			</div>
+			<div class="btn_up" style="width: 3.5%;margin-left: 95%;">
+				<a id="btn_up" href="#top" style="color: black"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+			</div>	
+			<!--底部信息-->
+        <!--底部信息-->
+        <footer class="flex-container-foot">
+            <div style="color:white;text-align:center;font-family: 'lt';font-size: 62px;">
+                官方网站
+            </div>
+            <div class="services">
+                <div class="services_up">
+                    <ul class="services_img">
+                        <li><img src="img/footer-1.png" alt="">
+                        </li>
+                        <li><img src="img/footer-2.png" alt="">
+                        </li>
+                        <li><img src="img/footer-3.png" alt="">
+                        </li>
+                        <li><img src="img/footer-4.png" alt="">
+                        </li>
+                    </ul>
+                <div style="text-align: center; margin: 0%">
+                    <ul style="width: 100%;justify-content: space-around;margin: 0;">
+                        <li>
+                            <h4>正品保证</h4>
+                            <p>
+                                官方直供原装
+                            </p>
+                        </li>
+                        <li>
+                            <h4>顺丰包邮</h4>
+                            <p>
+                                港澳台偏远地区除外均可提供普通快递服务
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>精美礼盒</h4>
+                            <p>
+                                甄选精美礼盒包装尊享官网购物体验
+                            </p>                            
+                        </li>
+                        <li>
+                            <h4>绑定公众号</h4>
+                            <p>
+                                首次绑定会员&nbsp;即赠100积分
+                            </p>                            
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="services_down">
+                    <ul class="services_info">
+                        <li>
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">加入兰蔻</a></li>
+                                <li><a href="">会员中心</a></li>
+                                <li><a href="">品牌历史</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">线上美容顾问</a></li>
+                                <li><a href="">订购热线：xxx-xxxx-xxxx</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">配送及退货</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">专柜查询</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="">关注我们</a></li>
+                                <li><a href=""><i class="fa fa-weixin"></i>官方微信</a></li>
+                                <li><a href=""><i class="fa fa-weibo"></i>官方微博</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>  
+		</div>
+	</body>
+</html>

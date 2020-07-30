@@ -1,0 +1,31 @@
+$(function(){
+    $('#huiyuan_one').show();
+    $('#huiyuan_two').hide();
+    $('#huiyuan_three').hide();
+    $('#huiyuan_four').hide();
+
+    $('#hy1').click(function(){
+        $('#huiyuan_one').show();
+        $('#huiyuan_two').hide();
+        $('#huiyuan_three').hide();
+        $('#huiyuan_four').hide();
+    });
+    $('#hy2').click(function(){
+        $('#huiyuan_one').hide();
+        $('#huiyuan_two').show();
+        $('#huiyuan_three').hide();
+        $('#huiyuan_four').hide();
+    });
+    $('#hy3').click(function(){
+        $('#huiyuan_one').hide();
+        $('#huiyuan_two').hide();
+        $('#huiyuan_three').show();
+        $('#huiyuan_four').hide();
+    });
+    $('#hy4').click(function(){
+        $('#huiyuan_one').hide();
+        $('#huiyuan_two').hide();
+        $('#huiyuan_three').hide();
+        $('#huiyuan_four').show();
+    });                                                                                                
+})
